@@ -8,6 +8,21 @@
     <script src="asset/js/app.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Todo List</h1>
+        <div class="add-todo">
+           <input type="text" id="newTodoInput" placeholder="Nouvelle tâche">
+           <button id="addTodoButton">Ajouter</button>
+        </div>
+        <div class="search-todo">
+           <input type="text" id="searchTodoInput" placeholder="Rechercher une tâche">
+        </div>
+        <div class="filter-todo">
+           <label for="dateFilterInput">Filtrer par date :</label>
+           <input type="date" id="dateFilterInput">
+        </div>
+        <ul id="todoList"></ul>
+    </div>
+   
 </body>
 </html>

@@ -1,3 +1,74 @@
-body{
-    background-color: aquamarine;
+
+.container{
+    background-color: #d9d9d9;
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5% 0% 0% 40%;
 }
+h1{
+    text-align: center;
+}
+.add-todo {
+    margin-bottom: 10px;
+    display: flex;
+ }
+ #newTodoInput{
+   width: 85%;
+   padding: 15px;
+   border: none;
+    outline: none;
+    border-radius: 30px;
+ }
+ #searchTodoInput{
+    width: 74%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+ }
+ #dateFilterInput{
+    margin: 30px 0px 0px 10px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 6px;
+    font-family: cursive;
+   
+ }
+ #addTodoButton{
+    margin: 1px 0px 0px 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px ;
+    background-color: rgb(53, 193, 118);
+ }
+ .filter-todo{
+    font-family: cursive;
+    padding: 3px;
+ }
+ ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ 
+ li {
+    margin-bottom: 5px;
+ }
+
+ @media screen and (max-width:767px){
+    .container{
+        background-color: #d9d9d9;
+        padding: 10px;
+        border-radius: 15px;
+        margin: 0% 0% 0% 2%;
+        width: 90%;
+    }
+    #searchTodoInput{
+        width: 65%;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+     }
+ }
